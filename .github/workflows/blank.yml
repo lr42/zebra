@@ -32,7 +32,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
         with:
-          ref: 'meta/issues'
+          ref: meta/issues
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
